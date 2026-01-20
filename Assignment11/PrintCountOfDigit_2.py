@@ -4,6 +4,8 @@
 
 def CountDigit(no):
     count = 0
+    if(no == 0):
+        return 1
     while(no > 0):
         no = no // 10
         count = count + 1
