@@ -10,7 +10,7 @@ def MultiplicationTable(No):
     print("\n")
 
 def main():
-    Number = int(input("Enter Number to print table : "))
+    Number = int(input("Enter Number : "))
 
     MultiplicationTable(Number)
 

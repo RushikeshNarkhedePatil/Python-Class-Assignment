@@ -6,7 +6,7 @@ def PrintOdd(no):
     print()
 
 def main():
-    Number = int(input("Enter Number to print table : "))
+    Number = int(input("Enter Number : "))
 
     PrintOdd(Number)
 

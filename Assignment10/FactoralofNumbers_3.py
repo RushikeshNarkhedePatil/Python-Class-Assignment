@@ -10,7 +10,7 @@ def Factorial(no):
 
 
 def main():
-    Number = int(input("Enter Number to print table : "))
+    Number = int(input("Enter Number : "))
 
     Fact = Factorial(Number)
     print("Factorial of numbers is : ",Fact)

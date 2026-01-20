@@ -11,7 +11,7 @@ def PrintNaturalNumber(no):
 
 
 def main():
-    Number = int(input("Enter Number to print table : "))
+    Number = int(input("Enter Number : "))
 
     Sum = PrintNaturalNumber(Number)
     print("Summention of natural number is : ",Sum)
