@@ -17,7 +17,7 @@ def PrimeOrNot(no):
     return Status
 
 def main():
-    Number = int(input("Enter Number to print table : "))
+    Number = int(input("Enter Number : "))
 
     Status = PrimeOrNot(Number)
     if(Status):

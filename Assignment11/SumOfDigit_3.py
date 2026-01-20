@@ -16,7 +16,7 @@ def SumOfDigit(no):
 
 
 def main():
-    Number = int(input("Enter Number to print table : "))
+    Number = int(input("Enter Number  : "))
 
     Count = SumOfDigit(Number)
     print(Count)

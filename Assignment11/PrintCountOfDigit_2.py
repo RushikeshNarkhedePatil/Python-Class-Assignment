@@ -14,7 +14,7 @@ def CountDigit(no):
 
 
 def main():
-    Number = int(input("Enter Number to print table : "))
+    Number = int(input("Enter Number : "))
 
     Count = CountDigit(Number)
     print(Count)
