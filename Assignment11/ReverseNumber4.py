@@ -3,23 +3,22 @@
 # Output: 321
 
 def ReverseNumber(no):
-    Rev = []
     Digit = 0
     if(no == 0):
         return 0
     while(no > 0):
         Digit = no % 10
-        Rev.append(Digit)
+        print(Digit,end="")
         no = no // 10
-    return Rev
+
+    print()
 
 
 
 def main():
     Number = int(input("Enter Number: "))
 
-    Count = ReverseNumber(Number)
-    print(Count)
+    ReverseNumber(Number)
 
 if __name__ == "__main__":
     main()
