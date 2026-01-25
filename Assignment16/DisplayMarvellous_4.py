@@ -7,7 +7,7 @@
 # Marvellous
 
 def DisplayMarvellous():
-    for _ in range(5):
+    for _ in range(5):  # Loop to print 5 times _ is used as a throwaway variable
         print("Marvellous")
 
 def main():
