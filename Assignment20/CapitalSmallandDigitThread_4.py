@@ -17,6 +17,8 @@ def Captital(Value):
         if(char >='A' and char <= 'Z'):
             icnt = icnt + 1
     print("Count of Capital is : ", icnt)
+    print("Thread ID : ", threading.get_ident())
+    print("Thread Name : ", threading.current_thread().name)
 
 def Small(Value):
     icnt =0
@@ -24,6 +26,8 @@ def Small(Value):
         if(Value[i] >='a' and Value[i] <= 'z'):
             icnt = icnt + 1
     print("Count of Small is : ", icnt)
+    print("Thread ID : ", threading.get_ident())
+    print("Thread Name : ", threading.current_thread().name)
 
 def Digit(Value):
     icnt = 0
@@ -32,6 +36,8 @@ def Digit(Value):
             icnt = icnt + 1
 
     print("Count of Digit is : ", icnt)
+    print("Thread ID : ", threading.get_ident())
+    print("Thread Name : ", threading.current_thread().name)
 
 def main():
     data = "abcABCdefDEFghiGHI96jklJKL37mnoMNO72pqrPQR75stuSTU48vwxyzVWXYZ"
